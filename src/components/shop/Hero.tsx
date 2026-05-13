@@ -74,7 +74,7 @@ export function Hero({ onShop }: { onShop?: () => void }) {
           {[
             { icon: Truck, label: "Envio rápido" },
             { icon: ShieldCheck, label: "Compra segura" },
-            { icon: Flame, label: "Curadoria" },
+            { icon: Flame, label: "Headshop" },
           ].map((f) => (
             <div key={f.label} className="flex items-center gap-2 rounded-lg border border-border/60 bg-card/50 backdrop-blur px-2.5 py-2">
               <f.icon className="size-4 text-primary shrink-0" />

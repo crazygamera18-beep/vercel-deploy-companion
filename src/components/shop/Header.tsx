@@ -13,7 +13,7 @@ export function Header({ onSearch, search }: { onSearch?: (q: string) => void; s
   const showSearch = path === "/" && onSearch;
 
   return (
-    <header className="sticky top-0 z-30 bg-background/75 backdrop-blur-xl border-b border-border/60">
+    <header className="sticky top-0 z-30 bg-background/75 backdrop-blur-xl border-b border-border/60 safe-top safe-x">
       <div className="absolute inset-x-0 -bottom-px h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent" />
       <div className="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between gap-3">
         <div className="w-10">

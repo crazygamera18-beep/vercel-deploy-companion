@@ -22,7 +22,7 @@ export const Route = createFileRoute("/")({
 });
 
 function MarqueeBar() {
-  const items = ["Frete rápido em SP", "Pagamento via Pix com desconto", "Atendimento no WhatsApp", "Entrega discreta", "Curadoria premium"];
+  const items = ["Piteiras de vidro especiais", "Pagamento via Pix com desconto", "Atendimento no WhatsApp", "Entrega discreta", "Headhshop premium"];
   const loop = [...items, ...items];
   return (
     <div className="relative overflow-hidden border-y border-primary/15 bg-primary/5">

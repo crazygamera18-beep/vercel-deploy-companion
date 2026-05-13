@@ -75,18 +75,24 @@
 
 @layer base {
   * { border-color: hsl(var(--border)); }
+  html { -webkit-text-size-adjust: 100%; -webkit-tap-highlight-color: transparent; }
   html, body {
     background-color: hsl(var(--background));
     color: hsl(var(--foreground));
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
   }
   body {
     background-image:
       radial-gradient(ellipse 80% 50% at 50% -10%, hsl(28 100% 50% / 0.10), transparent 60%),
       radial-gradient(ellipse 60% 50% at 100% 100%, hsl(22 100% 45% / 0.06), transparent 60%);
     background-attachment: fixed;
+    min-height: 100svh;
   }
+  /* Prevent iOS auto-zoom on focused inputs (font-size must be >= 16px) */
+  input, select, textarea { font-size: 16px; }
+  button, a { -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
   ::selection { background: hsl(28 100% 50% / 0.35); color: hsl(30 15% 98%); }
 }
 

@@ -124,7 +124,7 @@ export const PRODUCTS: Product[] = [
   // Piteiras de vidro
   p("piv-black", "Piteira de Vidro Black Artística", "Piteiras de vidro", 34.9, piteiraVidroBlack,
     "Piteira de vidro com visual artístico em preto e ótimo acabamento."),
-  p("piv-mini", "Piteira de Vidro Artística Especial Miniatura (Perguntar quais piteiras há disponíveis e valores.)", "Piteiras de vidro", 0.10, piteiraVidroMini,
+  p("piv-mini", "Piteira de Vidro Artística Especial Miniatura (Perguntar quais piteiras há disponíveis e valores.)", "Piteiras de vidro", 89.9, piteiraVidroMini,
     "Modelo artístico especial miniatura. Consulte para analisar as opções e os valores disponíveis."),
   p("piv-og-frozen", "Piteira OG Vidro Frozen", "Piteiras de vidro", 24.9, piteiraOgFrozen,
     "Piteira OG em vidro frozen, leve e com toque suave."),

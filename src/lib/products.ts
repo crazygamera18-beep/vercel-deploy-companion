@@ -106,7 +106,7 @@ export const PRODUCTS: Product[] = [
     "RAW Classic king size: papel natural, pura e sem branqueamento."),
   p("sed-sadhu", "Seda Sadhu Evening Large Brown Longa", "Sedas", 6.9, sedaSadhu,
     "Seda longa marrom com queima suave e estilo nacional."),
-  p("sed-zomo", "Seda Zomo Brown King Size", "Sedas", 2.99, sedaZomo,
+  p("sed-zomo", "Seda Zomo Brown King Size", "Sedas", 3.3, sedaZomo,
     "Seda brown king size acessível, ideal para reposição."),
   p("sed-guru", "Seda Guru Spirit Brown Longa Slim", "Sedas", 5.9, sedaGuru,
     "Seda slim longa marrom com pegada artesanal e queima leve."),
@@ -118,7 +118,7 @@ export const PRODUCTS: Product[] = [
     "Piteira hiper large estampada para uma rolagem mais firme e estilosa."),
   p("pit-tonabe-premium", "Piteira To Na Be Premium Extra Large", "Piteiras", 8.9, piteiraTonabePremium,
     "Piteira extra large premium com gramatura ideal e ótima fixação."),
-  p("pit-tonabe-mega", "Piteira To Na Be Mega Longa", "Piteiras", 15.0, piteiraTonabeMega,
+  p("pit-tonabe-mega", "Piteira To Na Be Mega Longa", "Piteiras", 14.9, piteiraTonabeMega,
     "Piteira mega longa para roladas generosas e confortáveis."),
 
   // Piteiras de vidro
@@ -126,13 +126,11 @@ export const PRODUCTS: Product[] = [
     "Piteira de vidro com visual artístico em preto e ótimo acabamento."),
   p("piv-mini", "Piteira de Vidro Artística Especial Miniatura (Perguntar quais piteiras há disponíveis e valores.)", "Piteiras de vidro", 0.10, piteiraVidroMini,
     "Modelo artístico especial miniatura. Consulte para analisar as opções e os valores disponíveis."),
-  p("piv-og-frozen", "Piteira OG Vidro Frozen", "Piteiras de vidro", 25.0, piteiraOgFrozen,
+  p("piv-og-frozen", "Piteira OG Vidro Frozen", "Piteiras de vidro", 24.9, piteiraOgFrozen,
     "Piteira OG em vidro frozen, leve e com toque suave."),
-  p("piv-og-espiral", "Piteira OG Vidro Espiral", "Piteiras de vidro", 25.0, piteiraOgEspiral,
+  p("piv-og-espiral", "Piteira OG Vidro Espiral", "Piteiras de vidro", 24.9, piteiraOgEspiral,
     "Piteira OG em vidro com detalhe em espiral marcante."),
-  p("piv-og-melt", "Piteira OG Vidro Melt", "Piteiras de vidro", 25.0, piteiraOgMelt,
-    "Piteira OG melt em vidro com efeito derretido e visual exclusivo."),
-  p("piv-og-basica", "Piteira OG Vidro Básica", "Piteiras de vidro", 10.0, piteiraOgBasica,
+  p("piv-og-basica", "Piteira OG Vidro Básica", "Piteiras de vidro", 9.9, piteiraOgBasica,
     "Piteira OG básica em vidro: simples, durável e prática."),
 
   // Slicks
@@ -154,17 +152,17 @@ export const PRODUCTS: Product[] = [
     "Dichavador Sadhu compacto, com ótimo corte e durabilidade."),
 
   // Cases
-  p("cas-raw-castor", "Case Puff Classic Raw Castor", "Cases", 180.0, casePuffRaw,
+  p("cas-raw-castor", "Case Puff Classic Raw Castor", "Cases", 179.9, casePuffRaw,
     "Case Puff Classic Raw Castor: visual premium e organização completa."),
-  p("cas-raw-red", "Case Raw Red", "Cases", 180.0, caseRawRed,
+  p("cas-raw-red", "Case Raw Red", "Cases", 179.9, caseRawRed,
     "Case Raw Red com acabamento marcante e ótima percepção de valor."),
-  p("cas-lil-whind", "Case Puff Life Pro Collab Lil Whind", "Cases", 230.0, casePuffLilWhind,
+  p("cas-lil-whind", "Case Puff Life Pro Collab Lil Whind", "Cases", 229.9, casePuffLilWhind,
     "Edição collab Lil Whind: case top de linha, prática e estilosa."),
-  p("cas-sadhu-canhamo", "Case Sadhu Grande Clássica Cânhamo", "Cases", 135.0, caseSadhuGrande,
+  p("cas-sadhu-canhamo", "Case Sadhu Grande Clássica Cânhamo", "Cases", 134.9, caseSadhuGrande,
     "Case Sadhu grande em cânhamo: clássica, espaçosa e versátil."),
 
   // Bandejas
-  p("ban-sadhu-grande", "Bandeja de Metal Sadhu Grande 2 Divisórias", "Bandejas", 65.0, bandejaSadhuGrande,
+  p("ban-sadhu-grande", "Bandeja de Metal Sadhu Grande 2 Divisórias", "Bandejas", 64.9, bandejaSadhuGrande,
     "Bandeja Sadhu grande em metal com 2 divisórias para organizar tudo."),
   p("ban-mini", "Bandeja Mini", "Bandejas", 19.9, bandejaMini,
     "Bandeja mini portátil — leve para qualquer lugar."),
@@ -174,9 +172,9 @@ export const PRODUCTS: Product[] = [
     "Cuia 67mm grande com bom volume e acabamento confiável."),
 
   // Tabacos
-  p("tab-acrema", "Tabaco Acrema", "Tabacos", 20.0, tabacoAcrema,
+  p("tab-acrema", "Tabaco Acrema", "Tabacos", 19.9, tabacoAcrema,
     "Tabaco Acrema com sabor equilibrado e queima agradável."),
-  p("tab-duhbom", "Tabaco Duhbom", "Tabacos", 17.0, tabacoDuhbom,
+  p("tab-duhbom", "Tabaco Duhbom", "Tabacos", 16.9, tabacoDuhbom,
     "Tabaco Duhbom: aroma marcante e ótimo custo-benefício."),
 
   // Tesouras
@@ -184,9 +182,9 @@ export const PRODUCTS: Product[] = [
     "Tesoura dobrável em inox: prática, segura e fácil de carregar."),
 
   // Isqueiros (Fogo)
-  p("isq-chama-grande", "Isqueiro Chama Grande", "Isqueiros", 2.99, isqueiroChama,
+  p("isq-chama-grande", "Isqueiro Chama Grande", "Isqueiros", 2.9, isqueiroChama,
     "Isqueiro de chama grande, prático e econômico."),
-  p("isq-clipper-mini", "Clipper Mini", "Isqueiros", 7.9, clipperMini,
+  p("isq-clipper-mini", "Clipper Mini", "Isqueiros", 6.9, clipperMini,
     "Clipper Mini: o clássico recarregável em tamanho compacto."),
 
   // Acessórios

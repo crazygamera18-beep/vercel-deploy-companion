@@ -134,12 +134,8 @@ export const PRODUCTS: Product[] = [
     "Piteira OG básica em vidro: simples, durável e prática."),
 
   // Slicks
-  p("sli-mms", "Slick MM's 5ml", "Slicks", 15.9, slickMms,
-    "Slick MM's 5ml com visual colorido e silicone resistente."),
   p("sli-7x1", "Slick de Silicone 7x1", "Slicks", 49.9, slick7x1,
     "Kit slick de silicone 7x1 para organizar tudo em um só lugar."),
-  p("sli-nozes", "Slick Nozes 4ml", "Slicks", 14.9, slickNozes,
-    "Slick formato noz 4ml — compacto e fácil de levar."),
   p("sli-pokebola", "Slick Silicone 5ml Pokébola", "Slicks", 15.9, slickPokebola,
     "Slick pokébola 5ml em silicone, item nostálgico e divertido."),
   p("sli-triangulo", "Slick de Silicone Triângulo", "Slicks", 29.9, slickTriangulo,

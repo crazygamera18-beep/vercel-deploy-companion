@@ -150,8 +150,11 @@ export const PRODUCTS: Product[] = [
   // Cases
   p("cas-raw-castor", "Case Puff Classic Raw Castor", "Cases", 179.9, casePuffRaw,
     "Case Puff Classic Raw Castor: visual premium e organização completa."),
-  p("cas-raw-red", "Case Raw Red", "Cases", 179.9, caseRawRed,
+ p("cas-raw-red", "Case Raw Red", "Cases", 179.9, "/products/case-raw-red.webp",
     "Case Raw Red com acabamento marcante e ótima percepção de valor."),
+  images: [
+    "/products/case-raw-red.webp",      // foto principal (externa, fechada)
+    "/products/case-raw-red-2.webp",    // foto que você acabou de subir (interior)
   p("cas-lil-whind", "Case Puff Life Pro Collab Lil Whind", "Cases", 229.9, casePuffLilWhind,
     "Edição collab Lil Whind: case top de linha, prática e estilosa."),
   p("cas-sadhu-canhamo", "Case Sadhu Grande Clássica Cânhamo", "Cases", 134.9, caseSadhuGrande,
